@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinOps Start&Stop Status</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-server"></i>
+                    <h1>FinOps Start&Stop Status</h1>
+                </div>
+                <div class="header-stats" id="headerStats">
+                    <div class="stat-card">
+                        <i class="fas fa-server"></i>
+                        <div class="stat-info">
+                            <span class="stat-number" id="totalServers">0</span>
+                            <span class="stat-label">Total Servidores</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-play" style="color: white;"></i>
+                        <div class="stat-info">
+                            <span class="stat-number" id="activosServers">0</span>
+                            <span class="stat-label">Activos</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-pause" style="color: white;"></i>
+                        <div class="stat-info">
+                            <span class="stat-number" id="activeServers">0</span>
+                            <span class="stat-label">Agendamento em progresso</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-stop" style="color: white;"></i>
+                        <div class="stat-info">
+                            <span class="stat-number" id="inactiveServers">0</span>
+                            <span class="stat-label">Inactivo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Filters -->
+            <div class="filters-section">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Pesquisar servidores...">
+                </div>
+                
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="ambienteFilter">Ambiente:</label>
+                        <select id="ambienteFilter">
+                            <option value="">Todos</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="aplicacaoFilter">App Name:</label>
+                        <select id="aplicacaoFilter">
+                            <option value="">Todas</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="statusFilter">Estado:</label>
+                        <select id="statusFilter">
+                            <option value="">Todos</option>
+                            <option value="Activo">Activo</option>
+                            <option value="Agendamento em progresso">Agendamento em progresso</option>
+                            <option value="Inactivo">Inactivo</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="ownerFilter">Owner:</label>
+                        <select id="ownerFilter">
+                            <option value="">Todos</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button id="clearFilters" class="btn btn-secondary">
+                    <i class="fas fa-times"></i>
+                    Limpar Filtros
+                </button>
+            </div>
+
+            <!-- Summary Cards -->
+            <div class="summary-section">
+                <div class="summary-card">
+                    <h3>Distribuição por Ambiente</h3>
+                    <div id="ambienteChart" class="chart-container"></div>
+                </div>
+                
+                <div class="summary-card">
+                    <h3>Estado Start/Stop</h3>
+                    <div id="statusChart" class="chart-container"></div>
+                </div>
+            </div>
+
+            <!-- Servers Table -->
+            <div class="table-section">
+                <div class="table-header">
+                    <h2>Lista de Servidores - FinOps Status</h2>
+                    <div class="table-actions">
+                        <button id="syncAzureBtn" class="btn btn-success">
+                            <i class="fas fa-cloud-download-alt"></i>
+                            Sync Azure
+                        </button>
+                        <button id="exportBtn" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Exportar CSV
+                        </button>
+                        <button id="refreshBtn" class="btn btn-secondary">
+                            <i class="fas fa-sync-alt"></i>
+                            Atualizar
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="table-container">
+                    <table id="serversTable" class="servers-table">
+                        <thead>
+                            <tr>
+                                <th data-sort="computer_name">
+                                    Computer Name
+                                    <i class="fas fa-sort"></i>
+                                </th>
+                                <th data-sort="estado_start_stop">
+                                    Estado Start/Stop
+                                    <i class="fas fa-sort"></i>
+                                </th>
+                                <th data-sort="ambiente">
+                                    Ambiente
+                                    <i class="fas fa-sort"></i>
+                                </th>
+                                <th data-sort="app_name">
+                                    App Name
+                                    <i class="fas fa-sort"></i>
+                                </th>
+                                <th data-sort="owner">
+                                    Owner
+                                    <i class="fas fa-sort"></i>
+                                </th>
+                                <th data-sort="subscription">
+                                    Subscription
+                                    <i class="fas fa-sort"></i>
+                                </th>
+                                <th data-sort="schedule">
+                                    Schedule
+                                    <i class="fas fa-sort"></i>
+                                </th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="serversTableBody">
+                            <!-- Data will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination" id="pagination">
+                    <!-- Pagination will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Server Details Modal -->
+    <div id="serverModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalServerName">Detalhes do Servidor</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Server details will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Azure Sync Modal -->
+    <div id="azureSyncModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Sincronização com Azure</h2>
+                <span class="close-azure" onclick="closeAzureModal()">&times;</span>
+            </div>
+            <div class="modal-body" id="azureSyncBody">
+                <div class="sync-status">
+                    <div class="sync-spinner">
+                        <div class="spinner"></div>
+                    </div>
+                    <h3 id="syncStatusTitle">Conectando ao Azure...</h3>
+                    <p id="syncStatusMessage">Por favor aguarde enquanto sincronizamos os dados das Virtual Machines.</p>
+                    <div class="sync-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="syncProgress"></div>
+                        </div>
+                        <span id="syncProgressText">0%</span>
+                    </div>
+                    <div class="sync-details" id="syncDetails">
+                        <!-- Detalhes da sincronização aparecerão aqui -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="loading-spinner">
+        <div class="spinner"></div>
+        <p>Carregando dados dos servidores...</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
