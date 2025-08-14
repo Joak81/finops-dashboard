@@ -1,0 +1,547 @@
+﻿Estado Start/Stop;Ambiente;App Name;Owner;COMPUTER NAME;RESOURCE GROUP;SUBSCRIPTION;LOCATION;SIZE;Schedule
+Inactivo;DV;;;caprot-vm-dc-02;DVNE-INFRA-RG-CAPROTONV2-01;DDD-DV;North Europe;Standard_B2ms;
+Inactivo;DV;;;caprot-vm-dc-03;dvne-infra-rg-caprotonv2-01;DDD-DV;North Europe;Standard_B2ms;
+Inactivo;DV;;;caprot-vm-fs-01;dvne-infra-rg-caprotonv2-01;DDD-DV;North Europe;Standard_B2s;
+Inactivo;DV;;;caprot-vm-rm-01;DVNE-INFRA-RG-CAPROTONV2-01;DDD-DV;North Europe;Standard_B2ms;
+Agendamento em progresso;DV;CA Lab;;DCBLCLAB;DCSRECOVERY-LAB-RG;CAS-CALAB-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;CA Lab;;DCCALAB;DCSRECOVERY-LAB-RG;CAS-CALAB-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;CA Lab;;DCRecoveryHyper;DCSRECOVERY-LAB-RG;CAS-CALAB-DV;North Europe;Standard_D4s_v4;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;DR;;;draadcodatsql01;WE-DR-AADCO-NET-RG;DSP-Infra-PR;West Europe;Standard_D4ds_v5;
+Inactivo;DR;;;draadcoinfmng01;WE-DR-AADCO-NET-RG;DSP-Infra-PR;West Europe;Standard_D4ds_v5;
+Inactivo;DR;;;drazdcsblcadc01;we-dr-azdcs-int-rg;DSP-CA AZDCS-PR;West Europe;Standard_D2s_v5;
+Inactivo;DR;;;drazdcsblcadc02;we-dr-azdcs-int-rg;DSP-CA AZDCS-PR;West Europe;Standard_D2s_v5;
+Inactivo;DR;;;drazdcscoradc01;we-dr-azdcs-cor-rg;DSP-CA AZDCS-PR;West Europe;Standard_D2s_v5;
+Inactivo;DR;;;drazdcscoradc02;we-dr-azdcs-cor-rg;DSP-CA AZDCS-PR;West Europe;Standard_D2s_v5;
+Inactivo;DR;;;drazdcsintadc01;we-dr-azdcs-int-rg;DSP-CA AZDCS-PR;West Europe;Standard_D2s_v5;
+Inactivo;DR;;;drazdcsintadc02;we-dr-azdcs-int-rg;DSP-CA AZDCS-PR;West Europe;Standard_D2s_v5;
+Agendamento em progresso;QL;CA Mobile Particulares;Rui Lopes;qlmbparomsaut01;ne-qa-camob-rg-01;DDA AEA QA;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;CA Online Particulares;Rui Lopes;dvmnigapltaut01;ne-dv-mniga-plt-rg;DDD-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;DR;;;drazrpiappens01;we-dr-azrpi-app-rg;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;
+Inactivo;DR;;;drazrpiapplog01;WE-DR-AZRPI-APP-RG;DSP-CA Proton-DR;West Europe;Standard_F4s_v2;
+Agendamento em progresso;DV;CA Online Particulares;Rui Lopes;dvmnigapltque01;NE-DV-MNIGA-PLT-RG;DDD-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;CA Online Particulares;Rui Lopes;dvpverainfapp01;ne-dv-pvera-app-rg;DDD-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;CA Online Particulares;Rui Lopes;dvpverainfsql01;ne-dv-pvera-app-rg;DDD-DV;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;DR;;;drazrpiappwsd02;we-dr-azrpi-app-rg;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;
+Agendamento em progresso;QL;CA Online Particulares;Rui Lopes;qlmnigapltaut01;NE-QL-MNIGA-PLT-RG;DDA AEA QA;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;DR;;;drazrpiappwsi02;WE-DR-AZRPI-APP-RG;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;
+Agendamento em progresso;QL;CA Online Particulares;Rui Lopes;qlmnigapltque01;NE-QL-MNIGA-PLT-RG;DDA AEA QA;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;DR;;;drazrpiappwso02;we-dr-azrpi-app-rg;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;
+Agendamento em progresso;QL;CA Orgao Social;Manuel Latino;qlporosdatgwe01;NE-QL-POROS-GWE-RG;DDA AEA QA;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;DR;;;drazrpiappwss02;we-dr-azrpi-app-rg;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;
+Inactivo;DR;;;drazrpidatsql01;WE-DR-AZRPI-DAT-RG;DSP-CA Proton-DR;West Europe;Standard_E32s_v3;
+Inactivo;DR;;;drazrpidatsql02;we-dr-azrpi-dat-rg;DSP-CA Proton-DR;West Europe;Standard_E32s_v3;
+Inactivo;DR;;;drazrpiinfadc01;WE-DR-AZRPI-INF-RG;DSP-CA Proton-DR;West Europe;Standard_F4s_v2;
+Inactivo;DR;;;drazrpiinfadc02;WE-DR-AZRPI-INF-RG;DSP-CA Proton-DR;West Europe;Standard_F4s_v2;
+Inactivo;DR;;;drazrpiinfadf01;WE-DR-AZRPI-INF-RG;DSP-CA Proton-DR;West Europe;Standard_F4s_v2;
+Inactivo;DR;;;drazrpiinfadf02;WE-DR-AZRPI-INF-RG;DSP-CA Proton-DR;West Europe;Standard_F4s_v2;
+Inactivo;DR;;;drazrpiinfwap01;WE-DR-AZRPI-WAP-RG;DSP-Gateway-DR;West Europe;Standard_F4s_v2;
+Inactivo;DR;;;drazrpiinfwap02;WE-DR-AZRPI-WAP-RG;DSP-Gateway-DR;West Europe;Standard_F4s_v2;
+Activo;QL;CA Screening;Paulino Carvalho;qlavdhp11-0;NE-QL-AVD-HP11-RG;DDD-WVD-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;DR;;;drcalypsdatodb01.cas.local;WE-DR-CALYP-DAT-RG;DSP-CALYP-DR;West Europe;Standard_E4s_v3;
+Inactivo;DR;;;drcaproinfdns01;WE-DR-CAPRO-INF-RG;DSP-CA Proton-PR;West Europe;Standard_B2s;
+Inactivo;DR;;;drcaproinfdns02;WE-DR-CAPRO-INF-RG;DSP-CA Proton-PR;West Europe;Standard_B2s;
+Inactivo;DR;;;drcastsinfadf01;we-dr-casts-inf-rg;DSP-CA AZDCS-PR;West Europe;Standard_D2s_v5;
+Inactivo;DR;;;drcastsinfadf02;WE-DR-CASTS-INF-RG;DSP-CA AZDCS-PR;West Europe;Standard_D2s_v5;
+Inactivo;DR;;;drcastsinfwap01;WE-DR-CASTS-WAP-RG;DSP-Gateway-DR;West Europe;Standard_D2s_v5;
+Inactivo;DR;;;drcastsinfwap02;we-dr-casts-wap-rg;DSP-Gateway-DR;West Europe;Standard_D2s_v5;
+Inactivo;DR;;;drexonlinfsmt01;NE-DR-EXONL-INF-RG;DSP-Infra-PR;West Europe;Standard_DS3_v2;
+Inactivo;DR;;;drmgmtshp01;ne-dr-mgmt-shp-rg;GSC-MGMT-DR;North Europe;Standard_B1s;
+Inactivo;DR;;;drppddve01.reddog.microsoft.com;WE-DR-PPDDO-BCK-RG;DSP-Infra-PR;West Europe;Standard_D32ds_v5;
+Inactivo;DR;;;drppdm01;WE-DR-PPDDO-BCK-RG;DSP-Infra-PR;West Europe;Standard_D8s_v3;
+Inactivo;DR;;;drrisksappsvc01;WE-DR-RISKS-APP-RG;CAS-RISKS-DR;West Europe;Standard_D8lds_v5;
+Inactivo;DR;;;drrisksdatsql01;WE-DR-RISKS-DAT-RG;CAS-RISKS-DR;West Europe;Standard_D8lds_v5;
+Inactivo;DR;;;drrisksengsvc01;we-dr-risks-eng-rg;CAS-RISKS-DR;West Europe;Standard_D16ds_v5;
+Inactivo;DR;;;drsccminfdpt01;WE-DR-SCCM-INF-RG;DSP-Infra-PR;West Europe;Standard_D4s_v5;
+Inactivo;DR;;;drsccminfdpt02;WE-DR-SCCM-INF-RG;DSP-Infra-PR;West Europe;Standard_D4s_v5;
+Inactivo;DR;;;drsifoxdatodb01;WE-DR-SIFOX-DAT-RG;DSP-SIFOX-DR;West Europe;Standard_E8s_v3;
+Inactivo;DR;;;drzpaconnector03;NE-DR-ZPACONNECTOR-RG;GSC-GATEW-PR;West Europe;Standard_D4s_v3;
+Inactivo;DR;;;drzpaconnector04;NE-DR-ZPACONNECTOR-RG;GSC-GATEW-PR;West Europe;Standard_D4s_v3;
+Inactivo;DR;;;drzpaconnector05;NE-DR-ZPACONNECTOR-RG;GSC-GATEW-PR;West Europe;Standard_F4s_v2;
+Inactivo;DR;;;drzpaconnector06;NE-DR-ZPACONNECTOR-RG;GSC-GATEW-PR;West Europe;Standard_D4s_v3;
+Inactivo;QL;;;dvavdhp10-0;NE-QL-WVD-HP10-RG;DDD-WVD-QL;North Europe;Standard_B8ms;
+Inactivo;DV;;;dvazdcsblcadc01;ne-dv-azdcs-int-rg;DDD-CA AZDCS-DV;North Europe;Standard_B2ms;
+Inactivo;DV;;;dvazdcsblcadc02;ne-dv-azdcs-int-rg;DDD-CA AZDCS-DV;North Europe;Standard_B2ms;
+Inactivo;DV;;;dvazdcscoradc01;NE-DV-AZDCS-COR-RG;DDD-CA AZDCS-DV;North Europe;Standard_B2ms;
+Inactivo;DV;;;dvazdcscoradc02;ne-dv-azdcs-cor-rg;DDD-CA AZDCS-DV;North Europe;Standard_B2ms;
+Inactivo;DV;;;dvazdcsintadc01;ne-dv-azdcs-int-rg;DDD-CA AZDCS-DV;North Europe;Standard_B2ms;
+Inactivo;DV;;;dvazdcsintadc02;ne-dv-azdcs-int-rg;DDD-CA AZDCS-DV;North Europe;Standard_B2ms;
+Inactivo;DV;;;dvazrpiappbiz01;NE-DV-AZRPI-APP-RG;DDD-DV;North Europe;Standard_D2s_v4;
+Inactivo;DV;;;dvazrpiappens01;NE-DV-AZRPI-APP-RG;DDD-DV;North Europe;Standard_D2s_v4;
+Inactivo;DV;;;dvazrpiapplog01;NE-DV-AZRPI-APP-RG;DDD-DV;North Europe;Standard_D2s_v4;
+Inactivo;DV;;;dvazrpiapppmc01;NE-DV-AZRPI-APP-RG;DDD-DV;North Europe;Standard_D2s_v4;
+Inactivo;DV;;;dvazrpiappwsi01;NE-DV-AZRPI-APP-RG;DDD-DV;North Europe;Standard_D2s_v4;
+Inactivo;DV;;;dvazrpiappwss01;NE-DV-AZRPI-APP-RG;DDD-DV;North Europe;Standard_D2s_v4;
+Inactivo;DV;;;dvazrpidatsql01;NE-DV-AZRPI-DAT-RG;DDD-DV;North Europe;Standard_E8s_v4;
+Inactivo;DV;;;dvazrpiinfadc01;NE-DV-AZRPI-INF-RG;DDD-DV;North Europe;Standard_D2s_v4;
+Inactivo;DV;;;dvazrpiinfadf01;NE-DV-AZRPI-INF-RG;DDD-DV;North Europe;Standard_D2s_v4;
+Inactivo;DV;;;dvazrpimngdeb01;NE-DV-AZRPI-DEB-RG;DDD-DV;North Europe;Standard_E4ds_v4;
+Inactivo;DV;;;dvazrpimngdeb02;NE-DV-AZRPI-DEB-RG;DDD-DV;North Europe;Standard_E4ds_v4;
+Agendamento em progresso;DV;Calypso;Bruno Aboim;dvcaagtdevops01;NE-DV-CAAGT-OPS-RG;CAS-CAAGT-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;Calypso;Bruno Aboim;dvcalypsappsvc01.caintranetdv.int;NE-DV-CALYP-APP-RG;DDD-CALYP-DV;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;Calypso;Bruno Aboim;dvcalypsdatodb01.cas.local;NE-DV-CALYP-DAT-RG;DDD-CALYP-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;Calypso;Bruno Aboim;dvcalypsengsvc01.caintranetdv.int;NE-DV-CALYP-ENG-RG;DDD-CALYP-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;Calypso;Bruno Aboim;dvcalypsrsksvc01.caintranetdv.int;NE-DV-CALYP-RSK-RG;DDD-CALYP-DV;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;DV;;;dvcaobsdatdfc01;NE-DV-CAOBS-INF-RG;CAS-CAOBS-DV;North Europe;Standard_D2ls_v5;
+Agendamento em progresso;QL;Calypso;Bruno Aboim;qlcalypsappsvc01.caintranetql.int;NE-QL-CALYP-APP-RG;DDD-CALYP-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Calypso;Bruno Aboim;qlcalypsdatodb01.cas.local;NE-QL-CALYP-DAT-RG;DDD-CALYP-QL;North Europe;Standard_E4-2s_v3;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Calypso;Bruno Aboim;qlcalypsengsvc01.caintranetql.int;NE-QL-CALYP-ENG-RG;DDD-CALYP-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Calypso;Bruno Aboim;qlcalypsrsksvc01.caintranetql.int;NE-QL-CALYP-RSK-RG;DDD-CALYP-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;QL;DUIT;Catarina Alexandra Tapada;w10quaduitwvd01;NE-QL-WVD-HP1-RG;DDD-WVD-QL;North Europe;Standard_B2ms;Desligado dias sa semana das 21h às 7h
+Activo;QL;DUIT;Catarina Alexandra Tapada;w10quaduitwvd02;NE-QL-WVD-HP1-RG;DDD-WVD-QL;North Europe;Standard_B2ms;Desligado de 2a a 5a das 21h às 7h | 6a a partir das 23h e aos FDS
+Activo;QL;DUIT;Catarina Alexandra Tapada;w10quaduitwvd03;NE-QL-WVD-HP1-RG;DDD-WVD-QL;North Europe;Standard_B2ms;Desligado de 2a a 5a das 21h às 7h | 6a a partir das 23h e aos FDS
+Activo;QL;DUIT;Catarina Alexandra Tapada;w10quaduitwvd04;NE-QL-WVD-HP1-RG;DDD-WVD-QL;North Europe;Standard_B2ms;Desligado de 2a a 5a das 21h às 7h | 6a a partir das 23h e aos FDS
+Agendamento em progresso;QL;DUIT;Catarina Alexandra Tapada;qlduitappmng01;NE-QL-DUIT-APP-RG;DDD-Infra-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;DUIT;Catarina Alexandra Tapada;qlduitappsql01;NE-QL-DUIT-APP-RG;DDD-Infra-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Edoclink;Inês Rebelo Pinto;qledocldatsql01;NE-QL-EDOCL-DAT-RG;DDD-edoclink-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;DV;;;dvcaproinfdns01;NE-DV-CAPRO-INF-RG;DDD-DV;North Europe;Standard_B1s;
+Inactivo;DV;;;dvcapropltdgw01;NE-DV-CAPRO-DGW-RG;DDD-DV;North Europe;Standard_B2ms;
+Inactivo;DV;;;dvcapropltmng01;NE-DV-CAPRO-MNG-RG;DDD-DV;North Europe;Standard_B2ms;
+Inactivo;DV;;;dvcapropltmng02;NE-DV-CAPRO-MNG-RG;DDD-DV;North Europe;Standard_B2ms;
+Agendamento em progresso;QL;Edoclink;Inês Rebelo Pinto;qledoclinfadc01;NE-QL-EDOCL-INF-RG;DDD-edoclink-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Edoclink;Inês Rebelo Pinto;qledoclwfoiis01;NE-QL-EDOCL-WFO-RG;DDD-edoclink-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;DV;;;dvfocusappsvc01;ne-dv-focus-app-rg;DDD-CALYP-DV;North Europe;Standard_B16ms;
+Activo;PP;Flow Credit;Estela Silva;ppflowcappiis01;NE-PP-FLOWC-APP-RG;DSP-CA Flow Credit-PP;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e aos FDS, excepto sábado das 1h às 4h
+Activo;PP;Flow Credit;Estela Silva;ppflowcappiis02;NE-PP-FLOWC-APP-RG;DSP-CA Flow Credit-PP;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e aos FDS, excepto sábado das 1h às 4h
+Activo;PP;Flow Credit;Estela Silva;ppflowcdatsql03;NE-PP-FLOWC-DAT-RG;DSP-CA Flow Credit-PP;North Europe;Standard_B8ms;Desligado dias da semana das 20h às 8h e aos FDS, excepto sábado das 1h às 4h
+Activo;PP;Flow Credit;Estela Silva;ppflowcdatsql04;NE-PP-FLOWC-DAT-RG;DSP-CA Flow Credit-PP;North Europe;Standard_B16ms;Desligado dias da semana das 20h às 8h e aos FDS, excepto sábado das 1h às 4h
+Activo;PP;Flow Credit;Estela Silva;ppflowcinfadc01;NE-PP-FLOWC-INF-RG;DSP-CA Flow Credit-PP;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e aos FDS, excepto sábado das 1h às 4h
+Activo;PP;Flow Credit;Estela Silva;ppflowcwboiis01;NE-PP-FLOWC-WBO-RG;DSP-CA Flow Credit-PP;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e aos FDS, excepto sábado das 1h às 4h
+Activo;PP;Flow Credit;Estela Silva;ppflowcwboiis02;NE-PP-FLOWC-WBO-RG;DSP-CA Flow Credit-PP;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e aos FDS, excepto sábado das 1h às 4h
+Activo;PP;Flow Credit;Estela Silva;ppflowcwfoiis01;NE-PP-FLOWC-WFO-RG;DSP-CA Flow Credit-PP;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e aos FDS, excepto sábado das 1h às 4h
+Activo;PP;Flow Credit;Estela Silva;ppflowcwfoiis02;NE-PP-FLOWC-WFO-RG;DSP-CA Flow Credit-PP;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e aos FDS, excepto sábado das 1h às 4h
+Agendamento em progresso;DV;IFRS16;Francisco Machado;dvifr16appsvc01;NE-DV-IFR16-APP-RG;DDD-DV;North Europe;Standard_D2s_v5;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;IFRS16;Francisco Machado;dvifr16datsql01;NE-DV-IFR16-DAT-RG;DDD-DV;North Europe;Standard_D2s_v5;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;IFRS16;Francisco Machado;qlifr16datsql01;NE-QL-IFR16-DAT-RG;DDA AEA QA;North Europe;Standard_D4s_v5;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DV;Moey;Francisco Sequeira;dvexperpltrun01;NE-DV-EXPER-INF-RG;DDD-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DV;Moey;Francisco Sequeira;dvmenigpltaut01;NE-DV-MENIG-PLT-RG;DDD-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DV;Moey;Francisco Sequeira;dvmenigpltque01;NE-DV-MENIG-PLT-RG;DDD-DV;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DR;Plataforma de Integração (PI);Luis Figueiredo;drazrpiappbiz01;WE-DR-AZRPI-APP-RG;DSP-CA Proton-DR;West Europe;Standard_F4s_v2;Sempre desligado, excepto sábados das 1h às 3h
+Activo;DR;Plataforma de Integração (PI);Luis Figueiredo;drazrpiappens01;we-dr-azrpi-app-rg;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;Sempre desligado, excepto sábados das 1h às 3h
+Activo;DR;Plataforma de Integração (PI);Luis Figueiredo;drazrpiapppmc01;we-dr-azrpi-app-rg;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;Sempre desligado, excepto sábados das 1h às 3h
+Activo;DR;Plataforma de Integração (PI);Luis Figueiredo;drazrpiappsvc01;WE-DR-AZRPI-APP-RG;DSP-CA Proton-DR;West Europe;Standard_F4s_v2;Sempre desligado, excepto sábados das 1h às 3h
+Inactivo;DR;;;FortiAnalyzer;NE-DR-MGMT-FORTIANALYZER-RG;GSC-MGMT-DR;West Europe;Standard_DS3_v2;
+Inactivo;PR;;;FortiAnalyzer;NE-PR-MGMT-FORTIANALYZER-RG;GSC-MGMT-PR;North Europe;Standard_DS3_v2;
+Inactivo;PR;;;localhost.localdomain;NE-PR-ZSCALER-NSS-RG;GSC-MGMT-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prazureprtg;NE-PR-CALOG-APP-RG;GSC-MGMT-PR;North Europe;Standard_D2_v2;
+Inactivo;DR;;;drazureprtg;ne-dr-calog-app-rg;GSC-MGMT-DR;West Europe;Standard_DS1_v2;
+Inactivo;PR;;;mgcamonintana01;NE-PR-CAMON-OMS-RG;DSP-Infra-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;mgcamonintana02;NE-PR-CAMON-OMS-RG;DSP-Infra-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;mgcamonwkgana02;NE-PR-CAMON-OMS-RG;DSP-Infra-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;mgcamonwkgana01;NE-PR-CAMON-OMS-RG;DSP-Infra-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;neprglobladds01;ne-pr-globl-jmp;DSP-Global-MG;North Europe;Standard_B2s;
+Inactivo;PR;;;devopstesting01;ne-pr-globl-devops-testing;DSP-Global-MG;North Europe;Standard_B2als_v2;
+Inactivo;PR;;;CLARANET-JUMPER;NE-PR-GLOBL-JMP;DSP-Global-MG;North Europe;Standard_D4_v3;
+Inactivo;PR;;;neprgloblops01;ne-pr-globl-jmp;DSP-Global-MG;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;neprgloblrundeckprx01;ne-pr-globl-rundeck;DSP-Global-MG;North Europe;Standard_B2ls_v2;
+Inactivo;PR;;;CLARANET-ZABBIX;NE-PR-GLOBL-ZBX;DSP-Global-MG;North Europe;Standard_B1MS;
+Inactivo;PR;;;neprgloblzbx02;ne-pr-globl-zbx;DSP-Global-MG;North Europe;Standard_B2s;
+Activo;DR;Plataforma de Integração (PI);Luis Figueiredo;drazrpiappwsd01;we-dr-azrpi-app-rg;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;Sempre desligado, excepto sábados das 1h às 3h
+Activo;DR;Plataforma de Integração (PI);Luis Figueiredo;drazrpiappwsi01;we-dr-azrpi-app-rg;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;Sempre desligado, excepto sábados das 1h às 3h
+Activo;DR;Plataforma de Integração (PI);Luis Figueiredo;drazrpiappwso01;we-dr-azrpi-app-rg;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;Sempre desligado, excepto sábados das 1h às 3h
+Activo;DR;Plataforma de Integração (PI);Luis Figueiredo;drazrpiappwss01;we-dr-azrpi-app-rg;DSP-CA Proton-DR;West Europe;Standard_D2s_v3;Sempre desligado, excepto sábados das 1h às 3h
+Activo;DR;Plataforma de Integração (PI);Luis Figueiredo;drazrpimngdeb01;we-dr-azrpi-deb-rg;DSP-CA Proton-DR;West Europe;Standard_D2ds_v4;Sempre desligado, excepto sábados das 1h às 3h
+Activo;PP;Portal do Conselhos;Manuel Latino;ppsmgovappiis01;NE-PP-SMGOV-APP-RG;DSP-SMGOV-PP;North Europe;Standard_B4ms;Sempre desligado
+Activo;PP;Portal do Conselhos;Manuel Latino;ppsmgovdatsql03;NE-PP-SMGOV-DAT-RG;DSP-SMGOV-PP;North Europe;Standard_B8ms;Sempre desligado
+Activo;PP;Portal do Conselhos;Manuel Latino;ppsmgovdatsql04;NE-PP-SMGOV-DAT-RG;DSP-SMGOV-PP;North Europe;Standard_B8ms;Sempre desligado
+Activo;PP;Portal do Conselhos;Manuel Latino;ppsmgovwfoiis01;NE-PP-SMGOV-WFO-RG;DSP-SMGOV-PP;North Europe;Standard_B4ms;Sempre desligado
+Inactivo;PP;;;pppconsappiis01;NE-PP-PCONS-TMP-RG;DSP-SMGOV-PR;North Europe;Standard_D16s_v3;
+Inactivo;PP;;;pppconsdatsql01;ne-pp-pcons-tmp-rg;DSP-SMGOV-PR;North Europe;Standard_D64ds_v5;
+Inactivo;PP;;;pppconswfoiis01;NE-PP-PCONS-TMP-RG;DSP-SMGOV-PR;North Europe;Standard_D16s_v3;
+Activo;PP;Portal do Conselhos;Manuel Latino;ppsmgovwfoiis02;NE-PP-SMGOV-WFO-RG;DSP-SMGOV-PP;North Europe;Standard_B4ms;Sempre desligado
+Agendamento em progresso;QL;Primavera;Renato Belchior;qlpverainfapp01;ne-ql-pvera-app-rg;DDD-Infra-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Primavera;Renato Belchior;qlpverainfsql01;ne-ql-pvera-app-rg;DDD-Infra-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;QL;RAE;Rodrigo Santos;qlwvdinfhp4-0;NE-QL-WVD-HP4-RG;DDD-WVD-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;RDC;Jorge Rainha;dvcaodsappsps02;NE-DV-CAODS-APP-RG;DDD-CA Smart-DV;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;PR;;;praadcodatsql01;NE-PR-AADCO-NET-RG;DSP-Infra-PR;North Europe;Standard_D4ds_v5;
+Inactivo;PR;;;praadcoinfmng01;NE-PR-AADCO-NET-RG;DSP-Infra-PR;North Europe;Standard_D4ds_v5;
+Inactivo;PR;;;pravdhp1-0;NE-PR-AVD-HP1-RG;DSP-WVD-PR;North Europe;Standard_D32ds_v5;
+Inactivo;PR;;;pravdhp11-0;NE-PR-AVD-HP11-RG;DSP-WVD-PR;North Europe;Standard_B8ms;
+Inactivo;PR;;;pravdhp22-0;NE-PR-AVD-HP22-RG;DSP-WVD-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;pravdhp24-0;NE-PR-AVD-HP24-RG;DSP-WVD-PR;North Europe;Standard_D4ds_v5;
+Inactivo;PR;;;pravdhp25-0;NE-PR-AVD-HP25-RG;DSP-WVD-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;pravdhp26-0;NE-PR-AVD-HP26-RG;DSP-WVD-PR;North Europe;Standard_B8ms;
+Inactivo;PR;;;pravdhp27-0;NE-PR-AVD-HP27-RG;DSP-WVD-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;pravdhp28-0;NE-PR-AVD-HP28-RG;DSP-WVD-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;pravdhp29-0;NE-PR-AVD-HP29-RG;DSP-WVD-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;pravdhp30-0;NE-PR-AVD-HP30-RG;DSP-WVD-PR;North Europe;Standard_B2as_v2;
+Inactivo;PR;;;pravdhp31-0;NE-PR-AVD-HP31-RG;DSP-WVD-PR;North Europe;Standard_B4s_v2;
+Inactivo;PR;;;pravdhp32-0;NE-PR-AVD-HP32-RG;DSP-WVD-PR;North Europe;Standard_B4s_v2;
+Inactivo;PR;;;pravdhp33-0;NE-PR-AVD-HP33-RG;DSP-WVD-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;pravdhp33-kali1;NE-PR-AVD-HP33-RG;DSP-WVD-PR;North Europe;Standard_F4s_v2;
+Inactivo;PR;;;pravdhp34-0;ne-pr-avd-hp34-rg;DSP-WVD-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;pravdhp35-0;NE-PR-AVD-HP35-RG;DSP-WVD-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;pravdhp35-0;ne-pr-avd-hp36-rg;DSP-WVD-PR;North Europe;Standard_B4s_v2;
+Inactivo;PR;;;pravdhp36-0;NE-PR-AVD-HP36-RG;DSP-WVD-PR;North Europe;Standard_B4s_v2;
+Inactivo;PR;;;pravdhp37-0;NE-PR-AVD-HP37-RG;DSP-WVD-PR;North Europe;Standard_B4s_v2;
+Inactivo;PR;;;prazdcsblcadc01;NE-PR-AZDCS-INT-RG;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prazdcsblcadc02;NE-PR-AZDCS-INT-RG;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prazdcscoradc01;ne-pr-azdcs-cor-rg;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prazdcscoradc02;NE-PR-AZDCS-COR-RG;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prazdcsintadc01;ne-pr-azdcs-int-rg;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prazdcsintadc02;NE-PR-AZDCS-INT-RG;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prazpurwing01;NE-PR-CAGOV-APP-RG;DSP-Infra-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prazpurwing02;ne-pr-cagov-app-rg;DSP-Infra-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prazrpiappbiz01;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prazrpiappbiz02;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prazrpiappens01;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prazrpiappens02;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prazrpiappens03;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prazrpiapplog01;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prazrpiapppmc01;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prazrpiapppmc02;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prazrpiappsvc01;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prazrpiappsvc02;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prazrpiappwsc01;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D32s_v3;
+Inactivo;PR;;;prazrpiappwsc02;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D32s_v3;
+Inactivo;PR;;;prazrpiappwsd01;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D32s_v3;
+Inactivo;PR;;;prazrpiappwsd02;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D32s_v3;
+Inactivo;PR;;;prazrpiappwsi01;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prazrpiappwsi02;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prazrpiappwso01;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D32s_v3;
+Inactivo;PR;;;prazrpiappwso02;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D32s_v3;
+Inactivo;PR;;;prazrpiappwss01;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D32s_v3;
+Inactivo;PR;;;prazrpiappwss02;NE-PR-AZRPI-APP-RG;DSP-CA Proton-PR;North Europe;Standard_D32s_v3;
+Inactivo;PR;;;prazrpidatsql01;NE-PR-AZRPI-DAT-RG;DSP-CA Proton-PR;North Europe;Standard_E32s_v3;
+Inactivo;PR;;;prazrpidatsql02;NE-PR-AZRPI-DAT-RG;DSP-CA Proton-PR;North Europe;Standard_E32s_v3;
+Inactivo;PR;;;prazrpiinfadc01;NE-PR-AZRPI-INF-RG;DSP-CA Proton-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prazrpiinfadc02;NE-PR-AZRPI-INF-RG;DSP-CA Proton-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prazrpiinfadf01;NE-PR-AZRPI-INF-RG;DSP-CA Proton-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prazrpiinfadf02;NE-PR-AZRPI-INF-RG;DSP-CA Proton-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prazrpiinfwap01;NE-PR-AZRPI-WAP-RG;DSP-Gateway-PR;North Europe;Standard_F4s_v2;
+Inactivo;PR;;;prazrpiinfwap02;NE-PR-AZRPI-WAP-RG;DSP-Gateway-PR;North Europe;Standard_F4s_v2;
+Inactivo;PR;;;prazrpimngdeb01;NE-PR-AZRPI-DEB-RG;DSP-CA Proton-PR;North Europe;Standard_D4ds_v4;
+Inactivo;PR;;;prazrpimngdeb02;NE-PR-AZRPI-DEB-RG;DSP-CA Proton-PR;North Europe;Standard_D4ds_v4;
+Inactivo;PR;;;prbmcdsinfmng01;NE-PR-BMCDS-INF-RG;DSP-Infra-PR;North Europe;Standard_F4s_v2;
+Inactivo;PR;;;prbrainappsrv;NE-PR-MGMT-BRAIN-RG;GSC-MGMT-PR;North Europe;Standard_F8s;
+Inactivo;PR;;;prbraindbsrv;ne-pr-mgmt-brain-rg;GSC-MGMT-PR;North Europe;Standard_F8s;
+Inactivo;PR;;;prcaagtdevops01;NE-PR-CAAGT-OPS-RG;CAS-CAAGT-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcaaseinfdns01;PRCAASEINFDNS01_GROUP;DSP-CA Proton-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcalogcolsrv01;NE-PR-CALOG-APP-RG;DSP-CA Log-PR;North Europe;Standard_F4s_v2;
+Inactivo;PR;;;prcalogcolsrv02;NE-PR-CALOG-APP-RG;DSP-CA Log-PR;North Europe;Standard_F4s_v2;
+Inactivo;PR;;;prcalypsappsvc01.creditoagricola.int;ne-pr-calyp-app-rg;DSP-CALYP-PR;North Europe;Standard_E4ds_v5;
+Inactivo;PR;;;prcalypsdatodb01.cas.local;NE-PR-CALYP-DAT-RG;DSP-CALYP-PR;North Europe;Standard_E8s_v3;
+Inactivo;PR;;;prcalypsengsvc01.creditoagricola.int;NE-PR-CALYP-ENG-RG;DSP-CALYP-PR;North Europe;Standard_E8ads_v5;
+Inactivo;PR;;;prcalypsrsksvc01.creditoagricola.int;NE-PR-CALYP-RSK-RG;DSP-CALYP-PR;North Europe;Standard_E4ds_v5;
+Inactivo;PR;;;prcamonomsmng01;NE-PR-CAMON-OMS-RG;DSP-Infra-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcaobsdatdfc01;NE-PR-CAOBS-INF-RG;CAS-CAOBS-PR;North Europe;Standard_D2ls_v5;
+Inactivo;PR;;;prcaodsappsps01;NE-PR-CAODS-APP-RG;DSP-CA Smart-PR;North Europe;Standard_F16s_v2;
+Inactivo;PR;;;prcaodsappsps02;NE-PR-CAODS-APP-RG;DSP-CA Smart-PR;North Europe;Standard_F16s_v2;
+Inactivo;PR;;;prcaodsappsps11;NE-PR-CAODS-APP-RG;DSP-CA Smart-PR;North Europe;Standard_F16s_v2;
+Inactivo;PR;;;prcaodsappsps12;NE-PR-CAODS-APP-RG;DSP-CA Smart-PR;North Europe;Standard_F16s_v2;
+Inactivo;PR;;;prcaodsappsvc01;NE-PR-CAODS-APP-RG;DSP-CA Smart-PR;North Europe;Standard_D4ds_v4;
+Inactivo;PR;;;prcaodsappsvc02;NE-PR-CAODS-APP-RG;DSP-CA Smart-PR;North Europe;Standard_D4ds_v4;
+Inactivo;PR;;;prcaodsdatdgw01;NE-PR-CAODS-DAT-RG;DSP-CA Smart-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prcaodsdatdgw02;NE-PR-CAODS-DAT-RG;DSP-CA Smart-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prcaodsdatsql01;ne-pr-caods-dat-rg;DSP-CA Smart-PR;North Europe;Standard_E32ds_v5;
+Inactivo;PR;;;prcaodsdatsql02;NE-PR-CAODS-DAT-RG;DSP-CA Smart-PR;North Europe;Standard_E32ds_v5;
+Inactivo;PR;;;prcaodsdatsrs01;NE-PR-CAODS-DAT-RG;DSP-CA Smart-PR;North Europe;Standard_D4ds_v4;
+Inactivo;PR;;;prcaodsdatsrs02;ne-pr-caods-dat-rg;DSP-CA Smart-PR;North Europe;Standard_D4ds_v4;
+Inactivo;PR;;;prcapamapppsm01;NE-PR-CAPAM-APP-RG;DSP-CA AZDCS-PR;North Europe;Standard_F16s_v2;
+Inactivo;PR;;;prcapamapppsm02;NE-PR-CAPAM-APP-RG;DSP-CA AZDCS-PR;North Europe;Standard_F16s_v2;
+Inactivo;PR;;;prcapamapppsm07;NE-PR-CAPAM-APP-RG;DSP-CA AZDCS-PR;North Europe;Standard_F16s_v2;
+Inactivo;PR;;;prcapamapppsm08;ne-pr-capam-app-rg;DSP-CA AZDCS-PR;North Europe;Standard_F16s_v2;
+Inactivo;PR;;;prcapamapppsp01;NE-PR-CAPAM-APP-RG;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;prcapamapppsp02;NE-PR-CAPAM-APP-RG;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;prcapamapppsp07;NE-PR-CAPAM-APP-RG;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;prcapamapppsp08;NE-PR-CAPAM-APP-RG;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;prcapamdatvlt01;NE-PR-CAPAM-DAT-RG;DSP-CA AZDCS-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prcapaminfcpm01;NE-PR-CAPAM-INF-RG;DSP-CA AZDCS-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prcapaminfcpm02;ne-pr-capam-inf-rg;DSP-CA AZDCS-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prcapaminfcpm06;NE-PR-CAPAM-INF-RG;DSP-CA AZDCS-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prcapaminfpta01;NE-PR-CAPAM-INF-RG;DSP-CA AZDCS-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prcapamwfopvw01;NE-PR-CAPAM-APP-RG;DSP-CA AZDCS-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcapbcdatdmg01;NE-PR-CAPBC-INF-RG;DSP-Smart PBC-PR;North Europe;Standard_A4_v2;
+Inactivo;PR;;;prcapbcdatdmg02;ne-pr-capbc-inf-rg;DSP-Smart PBC-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcapbcdatdmg03;ne-pr-capbc-inf-rg;DSP-Smart PBC-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prcapbcdatdmg04;NE-PR-CAPBC-INF-RG;DSP-Smart PBC-PR;North Europe;Standard_A2_v2;
+Inactivo;PR;;;prcapbcdgwvms03;NE-PR-CAPBC-DGW-RG;DSP-Smart PBC-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcapbcdgwvms04;NE-PR-CAPBC-DGW-RG;DSP-Smart PBC-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcaproinfdns01;NE-PR-CAPRO-INF-RG;DSP-CA Proton-PR;North Europe;Standard_B2s;
+Inactivo;PR;;;prcaproinfdns02;NE-PR-CAPRO-INF-RG;DSP-CA Proton-PR;North Europe;Standard_B2s;
+Inactivo;PR;;;prcapropltdgw01;NE-PR-CAPRO-DGW-RG;DSP-CA Proton-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcapropltdgw02;NE-PR-CAPRO-DGW-RG;DSP-CA Proton-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcapropltdgw03;WE-PR-CAPRO-DGW-RG;DSP-CA Proton-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcapropltdgw04;WE-PR-CAPRO-DGW-RG;DSP-CA Proton-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prcapropltftp01;NE-PR-CAPRO-FTP-RG;DSP-CA Proton-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prcapropltmng01;NE-PR-CAPRO-MNG-RG;DSP-CA Proton-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcapropltmng02;NE-PR-CAPRO-MNG-RG;DSP-CA Proton-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prcastsinfadf01;NE-PR-CASTS-INF-RG;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prcastsinfadf02;NE-PR-CASTS-INF-RG;DSP-CA AZDCS-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prcastsinfwap01;NE-PR-CASTS-WAP-RG;DSP-Gateway-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prcastsinfwap02;NE-PR-CASTS-WAP-RG;DSP-Gateway-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prcavulappana01;NE-PR-CALOG-APP-RG;DSP-CA Log-PR;North Europe;Standard_B4s_v2;
+Inactivo;PR;;;prciosnetcios01;ne-pr-cios-net-rg;GSC-GATEW-PR;North Europe;Standard_DS2_v2;
+Inactivo;PR;;;prcmgmtnetinv01;NE-PR-CMGMT-NET-RG;GSC-GATEW-PR;North Europe;Standard_DS2_v2;
+Inactivo;PR;;;prcmgmtnetlog01;ne-pr-cmgmt-log-rg;GSC-MGMT-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prduitappdcp01;NE-PR-DUIT-APP-RG;DSP-Infra-PR;North Europe;Standard_D4s_v5;
+Inactivo;PR;;;prduitappmng01;NE-PR-DUIT-APP-RG;DSP-Infra-PR;North Europe;Standard_D4_v3;
+Inactivo;PR;;;prduitappsql01;NE-PR-DUIT-APP-RG;DSP-Infra-PR;North Europe;Standard_D4_v3;
+Inactivo;PR;;;prduitwebdcp01;NE-PR-DUIT-APP-RG;DSP-Infra-PR;North Europe;Standard_D4s_v5;
+Inactivo;PR;;;prdynatclttst01;NE-PR-CAMON-OBS-RG;DSP-CA Monitor-PR;North Europe;Standard_B2s;
+Inactivo;PR;;;prdynathubgtw01;NE-PR-CAMON-OBS-RG;DSP-CA Monitor-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prdynathubgtw02;NE-PR-CAMON-OBS-RG;DSP-CA Monitor-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prdynatinfgtw11;NE-PR-CAMON-OBS-RG;DSP-CA Monitor-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prdynatinfgtw12;NE-PR-CAMON-OBS-RG;DSP-CA Monitor-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prdynatrace01;NE-PR-DYNATRACE-INF-RG;DSP-Infra-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prdynatrace02;NE-PR-DYNATRACE-INF-RG;DSP-Infra-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;predocldatsql01;NE-PR-EDOCL-DAT-RG;DSP-Edoclink-PR;North Europe;Standard_E20ds_v4;
+Inactivo;PR;;;predocldatsql02;NE-PR-EDOCL-DAT-RG;DSP-Edoclink-PR;North Europe;Standard_E20ds_v4;
+Inactivo;PR;;;predoclinfadc01;NE-PR-EDOCL-INF-RG;DSP-Edoclink-PR;North Europe;Standard_F2s_v2;
+Inactivo;PR;;;predoclinfadc02;NE-PR-EDOCL-INF-RG;DSP-Edoclink-PR;North Europe;Standard_F2s_v2;
+Inactivo;PR;;;predoclwfoiis01;NE-PR-EDOCL-WFO-RG;DSP-Edoclink-PR;North Europe;Standard_F8s;
+Inactivo;PR;;;predoclwfoiis02;NE-PR-EDOCL-WFO-RG;DSP-Edoclink-PR;North Europe;Standard_F8s;
+Inactivo;PR;;;preigdatsql01;NE-PR-EIG-INF-RG;DSP-Smart PBC-PR;North Europe;Standard_DS13_v2;
+Inactivo;PR;;;prexonlinfamd01;NE-PR-EXONL-INF-RG;DSP-Infra-PR;North Europe;Standard_D4ds_v4;
+Inactivo;PR;;;prexonlinfsmt01;NE-PR-EXONL-INF-RG;DSP-Infra-PR;North Europe;Standard_D11_v2;
+Inactivo;PR;;;prexonlinfsmt02;NE-PR-EXONL-INF-RG;DSP-Infra-PR;North Europe;Standard_D11_v2;
+Inactivo;PR;;;prexonlinfsmt03;NE-PR-EXONL-INF-RG;DSP-Infra-PR;North Europe;Standard_DS3_v2;
+Inactivo;PR;;;prexonlinfsmt04;NE-PR-EXONL-INF-RG;DSP-Infra-PR;North Europe;Standard_DS3_v2;
+Inactivo;PR;;;prexperpltdes01;ne-pr-exper-inf-rg;DSP-CA Proton-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prexperpltrun01;ne-pr-exper-inf-rg;DSP-CA Proton-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prexperpltrun02;ne-pr-exper-inf-rg;DSP-CA Proton-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prflowcappiis01;NE-PR-FLOWC-APP-RG;DSP-CA Flow Credit-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prflowcappiis02;NE-PR-FLOWC-APP-RG;DSP-CA Flow Credit-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prflowcappiis03;NE-PR-FLOWC-APP-RG;DSP-CA Flow Credit-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prflowcappiis04;NE-PR-FLOWC-APP-RG;DSP-CA Flow Credit-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prflowcdatsql03;NE-PR-FLOWC-DAT-RG;DSP-CA Flow Credit-PR;North Europe;Standard_D16ds_v5;
+Inactivo;PR;;;prflowcdatsql04;NE-PR-FLOWC-DAT-RG;DSP-CA Flow Credit-PR;North Europe;Standard_D16ds_v5;
+Inactivo;PR;;;prflowcdatwit01;NE-PR-FLOWC-DAT-RG;DSP-CA Flow Credit-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;prflowcinfadc01;NE-PR-FLOWC-INF-RG;DSP-CA Flow Credit-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prflowcinfadc02;NE-PR-FLOWC-INF-RG;DSP-CA Flow Credit-PR;North Europe;Standard_D2s_v5;
+Inactivo;PR;;;prflowcwboiis01;NE-PR-FLOWC-WBO-RG;DSP-CA Flow Credit-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prflowcwboiis02;NE-PR-FLOWC-WBO-RG;DSP-CA Flow Credit-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prflowcwboiis03;NE-PR-FLOWC-WBO-RG;DSP-CA Flow Credit-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prflowcwboiis04;NE-PR-FLOWC-WBO-RG;DSP-CA Flow Credit-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prflowcwfoiis01;NE-PR-FLOWC-WFO-RG;DSP-CA Flow Credit-PR;North Europe;Standard_D4ds_v5;
+Inactivo;PR;;;prflowcwfoiis02;NE-PR-FLOWC-WFO-RG;DSP-CA Flow Credit-PR;North Europe;Standard_D4ds_v5;
+Inactivo;PR;;;prflowcwfoiis03;NE-PR-FLOWC-WFO-RG;DSP-CA Flow Credit-PR;North Europe;Standard_D4ds_v5;
+Inactivo;PR;;;prflowcwfoiis04;NE-PR-FLOWC-WFO-RG;DSP-CA Flow Credit-PR;North Europe;Standard_D4ds_v5;
+Inactivo;PR;;;prfocusappsvc01;NE-PR-FOCUS-APP-RG;DSP-CALYP-PR;North Europe;Standard_D32s_v5;
+Inactivo;PR;;;prfocuscalsvc01;NE-PR-FOCUS-CAL-RG;DSP-CALYP-PR;North Europe;Standard_F64s_v2;
+Inactivo;PR;;;prfocusdatodb01;NE-PR-FOCUS-DAT-RG;DSP-CALYP-PR;North Europe;Standard_D32ds_v5;
+Inactivo;PR;;;prfusaoapp01;ne-pr-fusao-app-rg;DSP-Infra-PR;North Europe;Standard_D4s_v4;
+Inactivo;PR;;;prgcavmsqlfrm01;formacao;GCA-Formação;North Europe;Standard_B4ms;
+Inactivo;PR;;;prifr16appsvc01;NE-PR-IFR16-APP-RG;DSP-CA Proton-PR;North Europe;Standard_E4s_v5;
+Inactivo;PR;;;prifr16datsql01;NE-PR-IFR16-DAT-RG;DSP-CA Proton-PR;North Europe;Standard_E4s_v5;
+Inactivo;PR;;;prinforappagt01;NE-PR-CAGOV-APP-RG;DSP-Infra-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prinforappagt02;NE-PR-CAGOV-APP-RG;DSP-Infra-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prinforappagt03;NE-PR-CAGOV-APP-RG;DSP-Infra-PR;North Europe;Standard_D4s_v5;
+Inactivo;PR;;;prmenigpltaut01;NE-PR-MENIG-PLT-RG;DSP-CA Proton-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prmenigpltque01;NE-PR-MENIG-PLT-RG;DSP-CA Proton-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prmnigapltaut01;NE-PR-MNIGA-PLT-RG;DSP-CA Proton-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prmnigapltque01;NE-PR-MNIGA-PLT-RG;DSP-CA Proton-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prpconsappiis01;NE-PR-PCONS-APP-RG;DSP-SMGOV-PR;North Europe;Standard_D16s_v3;
+Inactivo;PR;;;prpconsappiis02;NE-PR-PCONS-APP-RG;DSP-SMGOV-PR;North Europe;Standard_D16s_v3;
+Inactivo;PR;;;prpconsdatsql01;NE-PR-PCONS-DAT-RG;DSP-SMGOV-PR;North Europe;Standard_D4ds_v5;
+Inactivo;PR;;;prpconsdatsql02;NE-PR-PCONS-DAT-RG;DSP-SMGOV-PR;North Europe;Standard_D4ads_v5;
+Inactivo;PR;;;prpconswfoiis01;NE-PR-PCONS-WFO-RG;DSP-SMGOV-PR;North Europe;Standard_D16s_v3;
+Inactivo;PR;;;prpconswfoiis02;NE-PR-PCONS-WFO-RG;DSP-SMGOV-PR;North Europe;Standard_D16s_v3;
+Inactivo;PR;;;prporosdatgwe01;NE-PR-POROS-GWE-RG;DSP-CA Proton-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prppddve01.creditoagricola.int;NE-PR-PPDDO-BCK-RG;DSP-Infra-PR;North Europe;Standard_D32ds_v5;
+Inactivo;PR;;;prppdm01;NE-PR-PPDDO-BCK-RG;DSP-Infra-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prppdpaapp01;NE-PR-PPDPA-BCK-RG;DSP-Infra-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prppdpadst01;NE-PR-PPDPA-BCK-RG;DSP-Infra-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prpverainfapp01;NE-PR-PVERA-APP-RG;DSP-Infra-PR;North Europe;Standard_D4ds_v4;
+Inactivo;PR;;;prpverainfsql01;NE-PR-PVERA-APP-RG;DSP-Infra-PR;North Europe;Standard_D4ds_v4;
+Inactivo;PR;;;prremdyappprx01;NE-PR-REMDY-RG;DSP-Infra-PR;North Europe;Standard_D2_v3;
+Inactivo;PR;;;prremdyappprx02;NE-PR-REMDY-RG;DSP-Infra-PR;North Europe;Standard_D2_v3;
+Inactivo;PR;;;prrisksappsvc01;NE-PR-RISKS-APP-RG;CAS-RISKS-PR;North Europe;Standard_D8lds_v5;
+Inactivo;PR;;;prrisksappsvc02;NE-PR-RISKS-APP-RG;CAS-RISKS-PR;North Europe;Standard_D8lds_v5;
+Inactivo;PR;;;prrisksdatsql01;NE-PR-RISKS-DAT-RG;CAS-RISKS-PR;North Europe;Standard_D8lds_v5;
+Inactivo;PR;;;prrisksdatsql02;NE-PR-RISKS-DAT-RG;CAS-RISKS-PR;North Europe;Standard_D8lds_v5;
+Inactivo;PR;;;prrisksengsvc01;NE-PR-RISKS-ENG-RG;CAS-RISKS-PR;North Europe;Standard_D16ds_v5;
+Inactivo;PR;;;prrisksengsvc02;NE-PR-RISKS-ENG-RG;CAS-RISKS-PR;North Europe;Standard_D16ds_v5;
+Inactivo;PR;;;prrutilinfapp01;NE-PR-RUTIL-APP-RG;DSP-Intra-PR;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;prsapphdevops01;ne-pr-sapph-inf-rg;CAS-Sapphirus-POC;North Europe;Standard_B2ms;
+Inactivo;PR;;;prsccminfdpt01;NE-PR-SCCM-INF-RG;DSP-Infra-PR;North Europe;Standard_D4s_v5;
+Inactivo;PR;;;prsccminfdpt02;NE-PR-SCCM-INF-RG;DSP-Infra-PR;North Europe;Standard_D4s_v5;
+Inactivo;PR;;;prsifoxdatodb01;NE-PR-SIFOX-DAT-RG;DSP-SIFOX-PR;North Europe;Standard_E8s_v3;
+Inactivo;PR;;;prsifoxintwbo01;NE-PR-SIFOX-INT-RG;DSP-SIFOX-PR;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;prsifoxintwfo01;NE-PR-SIFOX-INT-RG;DSP-SIFOX-PR;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;prsifoxwebsvc01;NE-PR-SIFOX-WEB-RG;DSP-SIFOX-PR;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;prsiopeappsvc01;NE-PR-SIOPE-APP-RG;DSP-SIOPE-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prsiopeappsvc02;NE-PR-SIOPE-APP-RG;DSP-SIOPE-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prsiopedatodb01;NE-PR-SIOPE-DAT-RG;DSP-SIOPE-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prsiopeprcsvc01;ne-pr-siope-prc-rg;DSP-SIOPE-PR;North Europe;Standard_F16s_v2;
+Inactivo;PR;;;prsmartdgwvms01;NE-PR-SMART-DGW-RG;DSP-CA Smart-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prsmartdgwvms02;NE-PR-SMART-DGW-RG;DSP-CA Smart-PR;North Europe;Standard_F8s_v2;
+Inactivo;PR;;;prsmartdgwvms03;NE-PR-SMART-DGW-RG;DSP-CA Smart-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prsmartdgwvms04;NE-PR-SMART-DGW-RG;DSP-CA Smart-PR;North Europe;Standard_F2s_v2;
+Inactivo;PR;;;prsmartdgwvms05;NE-PR-SMART-DGW-RG;DSP-CA Smart-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prsmartdgwvms06;NE-PR-SMART-DGW-RG;DSP-CA Smart-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prsmartdgwvms07;NE-PR-SMART-DGW-RG;DSP-CA Smart-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prsmartdgwvms08;NE-PR-SMART-DGW-RG;DSP-CA Smart-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prsmartmngvms01;NE-PR-SMART-MNG-RG;DSP-CA Smart-PR;North Europe;Standard_B2ms;
+Inactivo;PR;;;prsmdocappana01;NE-PR-SMDOC-APP-RG;DSP-Intra-PR;North Europe;Standard_D2_v3;
+Inactivo;PR;;;prsmdocappana02;NE-PR-SMDOC-APP-RG;DSP-Intra-PR;North Europe;Standard_D2_v3;
+Inactivo;PR;;;prsmgovappiis01;NE-PR-SMGOV-APP-RG;DSP-SMGOV-PR;North Europe;Standard_D16s_v3;
+Inactivo;PR;;;prsmgovappiis02;NE-PR-SMGOV-APP-RG;DSP-SMGOV-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;prsmgovdatsql03;NE-PR-SMGOV-DAT-RG;DSP-SMGOV-PR;North Europe;Standard_D96ds_v5;
+Inactivo;PR;;;prsmgovdatsql04;NE-PR-SMGOV-DAT-RG;DSP-SMGOV-PR;North Europe;Standard_D64ds_v5;
+Inactivo;PR;;;prsmgovwfoiis01;NE-PR-SMGOV-WFO-RG;DSP-SMGOV-PR;North Europe;Standard_D16s_v3;
+Inactivo;PR;;;prsmgovwfoiis02;NE-PR-SMGOV-WFO-RG;DSP-SMGOV-PR;North Europe;Standard_D16s_v3;
+Inactivo;PR;;;prwebcminfslr01;ne-pr-webcm-inf-rg;DSP-CA Proton-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;; -;ne-pr-webcm-inf-rg;DSP-CA Proton-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;; -;ne-pr-webcm-inf-rg;DSP-CA Proton-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prwvdinfdns01;NE-PR-WVD-INF-RG;DSP-WVD-PR;North Europe;Standard_F2s_v2;
+Inactivo;PR;;;prwvdinfhp10-0;NE-PR-WVD-HP10-RG;DSP-WVD-PR;North Europe;Standard_B4ms;
+Inactivo;PR;;;prwvdinfhp12-0;NE-PR-WVD-HP12-RG;DSP-WVD-PR;North Europe;Standard_B8ms;
+Inactivo;PR;;;prwvdinfhp13-0;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prwvdinfhp14-0;NE-PR-WVD-HP14-RG;DSP-WVD-PR;North Europe;Standard_B16ms;
+Inactivo;PR;;;prwvdinfhp15-0;NE-PR-WVD-HP15-RG;DSP-WVD-PR;North Europe;Standard_D16ds_v5;
+Inactivo;PR;;;prwvdinfhp16-0;NE-PR-WVD-HP16-RG;DSP-WVD-PR;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;prwvdinfhp17-0;NE-PR-WVD-HP17-RG;DSP-WVD-PR;North Europe;Standard_B12ms;
+Inactivo;PR;;;prwvdinfhp18-0;NE-PR-WVD-HP18-RG;DSP-WVD-PR;North Europe;Standard_E8s_v3;
+Inactivo;PR;;;prwvdinfhp19-0;NE-PR-WVD-HP19-RG;DSP-WVD-PR;North Europe;Standard_B8ms;
+Inactivo;PR;;;prwvdinfhp2-0;NE-PR-WVD-HP2-RG;DSP-WVD-PR;North Europe;Standard_B12ms;
+Inactivo;PR;;;prwvdinfhp20-0;NE-PR-WVD-HP20-RG;DSP-WVD-PR;North Europe;Standard_B16ms;
+Inactivo;PR;;;prwvdinfhp23-0;ne-pr-wvd-hp23-rg;DSP-WVD-PR;North Europe;Standard_B20ms;
+Inactivo;PR;;;prwvdinfhp3-0;NE-PR-WVD-HP3-RG;DSP-WVD-PR;North Europe;Standard_B8ms;
+Inactivo;PR;;;prwvdinfhp3-kali0;NE-PR-WVD-HP3-RG;DSP-WVD-PR;North Europe;Standard_F4s_v2;
+Inactivo;PR;;;prwvdinfhp4-0;NE-PR-WVD-HP4-RG;DSP-WVD-PR;North Europe;Standard_B8ms;
+Inactivo;PR;;;prwvdinfhp5-0;ne-pr-wvd-hp5-rg;DSP-WVD-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;prwvdinfhp6-0;NE-PR-WVD-HP6-RG;DSP-WVD-PR;North Europe;Standard_D2s_v3;
+Inactivo;PR;;;prwvdinfhp7-0;NE-PR-WVD-HP7-RG;DSP-WVD-PR;North Europe;Standard_B12ms;
+Inactivo;PR;;;prwvdinfhp8-0;ne-pr-wvd-hp8-rg;DSP-WVD-PR;North Europe;Standard_B8ms;
+Inactivo;PR;;;prwvdinfhp9-0;NE-PR-WVD-HP9-RG;DSP-WVD-PR;North Europe;Standard_D8s_v3;
+Inactivo;PR;;;przpaconnector03;NE-PR-ZPACONNECTOR-RG;GSC-GATEW-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;przpaconnector04;NE-PR-ZPACONNECTOR-RG;GSC-GATEW-PR;North Europe;Standard_D4s_v3;
+Inactivo;PR;;;przpaconnector05;NE-PR-ZPACONNECTOR-RG;GSC-GATEW-PR;North Europe;Standard_F4s_v2;
+Inactivo;PR;;;przpaconnector06;NE-PR-ZPACONNECTOR-RG;GSC-GATEW-PR;North Europe;Standard_D4s_v3;
+Inactivo;QL;;;qaflowcinfadc01;NE-QA-FLOWC-INF-RG;DDA AEA QA;North Europe;Standard_E2ads_v5;
+Inactivo;QL;;;qaflowcinfadc02;NE-QA-FLOWC-INF-RG;DDA AEA QA;North Europe;Standard_B2ms;
+Inactivo;QL;;;qaflowcwfoiis01;NE-QA-FLOWC-WFO-RG;DDA AEA QA;North Europe;Standard_F4s;
+Inactivo;QL;;;qlavdhp10-0;NE-QL-WVD-HP10-RG;DDD-WVD-QL;North Europe;Standard_B16ms;
+Agendamento em progresso;DV;RDC;Jorge Rainha;dvcaodsappsvc01;NE-DV-CAODS-APP-RG;DDD-CA Smart-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;QL;;;qlavdhp12-0;NE-QL-AVD-HP12-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;qlavdhp13-0;NE-QL-AVD-HP13-RG;DDD-WVD-QL;North Europe;Standard_B8s_v2;
+Inactivo;QL;;;qlavdhp14-0;NE-QL-AVD-HP14-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;qlavdhp15-0;NE-QL-AVD-HP15-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;qlavdhp16-0;NE-QL-AVD-HP16-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;qlavdinfhp8-0;NE-QL-AVD-HP8-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;qlazdcsblcadc01;NE-QL-AZDCS-INT-RG;DDD-CA AZDCS-QL;North Europe;Standard_B2ms;
+Inactivo;QL;;;qlazdcsblcadc02;ne-ql-azdcs-int-rg;DDD-CA AZDCS-QL;North Europe;Standard_B2ms;
+Inactivo;QL;;;qlazdcsintadc01;NE-QL-AZDCS-INT-RG;DDD-CA AZDCS-QL;North Europe;Standard_B2ms;
+Inactivo;QL;;;qlazdcsintadc02;ne-ql-azdcs-int-rg;DDD-CA AZDCS-QL;North Europe;Standard_B2ms;
+Inactivo;QL;;;qlazrpiappbiz01;NE-QL-AZRPI-APP-RG;DDA AEA QA;North Europe;Standard_D4s_v4;
+Inactivo;QL;;;qlazrpiappens01;NE-QL-AZRPI-APP-RG;DDA AEA QA;North Europe;Standard_D2s_v4;
+Inactivo;QL;;;qlazrpiapplog01;NE-QL-AZRPI-APP-RG;DDA AEA QA;North Europe;Standard_D2s_v4;
+Inactivo;QL;;;qlazrpiapppmc01;NE-QL-AZRPI-APP-RG;DDA AEA QA;North Europe;Standard_D4s_v4;
+Inactivo;QL;;;qlazrpiappwsi01;NE-QL-AZRPI-APP-RG;DDA AEA QA;North Europe;Standard_E4s_v5;
+Inactivo;QL;;;qlazrpiappwss01;NE-QL-AZRPI-APP-RG;DDA AEA QA;North Europe;Standard_D2s_v4;
+Inactivo;QL;;;qlazrpidatsql01;NE-QL-AZRPI-DAT-RG;DDA AEA QA;North Europe;Standard_E8s_v4;
+Inactivo;QL;;;qlazrpiinfadc01;NE-QL-AZRPI-INF-RG;DDA AEA QA;North Europe;Standard_D2s_v4;
+Inactivo;QL;;;qlazrpiinfadf01;NE-QL-AZRPI-INF-RG;DDA AEA QA;North Europe;Standard_D4s_v4;
+Inactivo;QL;;;qlazrpimngdeb01;NNE-QL-AZRPI-DEB-RG;DDA AEA QA;North Europe;Standard_D4ds_v4;
+Inactivo;QL;;;qlazrpimngdeb02;NNE-QL-AZRPI-DEB-RG;DDA AEA QA;North Europe;Standard_D4ds_v4;
+Agendamento em progresso;DV;RDC;Jorge Rainha;dvcaodsdatdgw01;NE-DV-CAODS-DAT-RG;DDD-CA Smart-DV;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;RDC;Jorge Rainha;dvcaodsdatsql01;NE-DV-CAODS-DAT-RG;DDD-CA Smart-DV;North Europe;Standard_B16ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;RDC;Jorge Rainha;dvcaodsdatsrs01;ne-dv-caods-dat-rg;DDD-CA Smart-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;RDC;Jorge Rainha;dvsmartdgwvms01;NE-DV-SMART-DGW-RG;DDD-CA Smart-DV;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;QL;;;qlcaobsdatdfc01;NE-QL-CAOBS-INF-RG;CAS-CAOBS-QL;North Europe;Standard_D2ls_v5;
+Agendamento em progresso;DV;RDC;Jorge Rainha;dvsmartdgwvms02;NE-DV-SMART-DGW-RG;DDD-CA Smart-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;RDC;Jorge Rainha;dvsmartmngvms01;NE-DV-SMART-MNG-RG;DDD-CA Smart-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;RDC;Jorge Rainha;qlcaodsappsps01;NE-QL-CAODS-APP-RG;DDD-CA Smart-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;RDC;Jorge Rainha;qlcaodsappsps11;NE-QL-CAODS-APP-RG;DDD-CA Smart-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;RDC;Jorge Rainha;qlcaodsappsvc01;NE-QL-CAODS-APP-RG;DDD-CA Smart-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;RDC;Jorge Rainha;qlcaodsdatdgw01;NE-QL-CAODS-DAT-RG;DDD-CA Smart-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;QL;;;qlcapamapppsm01;NE-QL-CAPAM-APP-RG;DDD-CA AZDCS-QL;North Europe;Standard_F4s_v2;
+Inactivo;QL;;;qlcapamapppsp01;NE-QL-CAPAM-APP-RG;DDD-CA AZDCS-QL;North Europe;Standard_F2s_v2;
+Inactivo;QL;;;qlcapamdatvlt01;NE-QL-CAPAM-DAT-RG;DDD-CA AZDCS-QL;North Europe;Standard_D2s_v3;
+Inactivo;QL;;;qlcapaminfcpm01;NE-QL-CAPAM-INF-RG;DDD-CA AZDCS-QL;North Europe;Standard_D2s_v3;
+Inactivo;QL;;;qlcapamwfopvw01;NE-QL-CAPAM-APP-RG;DDD-CA AZDCS-QL;North Europe;Standard_B2s;
+Agendamento em progresso;QL;RDC;Jorge Rainha;qlcaodsdatsql01;NE-QL-CAODS-DAT-RG;DDD-CA Smart-QL;North Europe;Standard_F32s_v2;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;RDC;Jorge Rainha;qlcaodsdatsrs01;NE-QL-CAODS-DAT-RG;DDD-CA Smart-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;RDC;Jorge Rainha;qlsmartdgwvms01;ne-ql-smart-dgw-rg;DDD-CA Smart-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;RDC;Jorge Rainha;qlsmartdgwvms02;NE-QL-SMART-DGW-RG;DDD-CA Smart-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;QL;;;qlcaproinfdns01;NE-QL-CAPRO-INF-RG;DDA AEA QA;North Europe;Standard_B2s;
+Inactivo;QL;;;qlcapropltdgw01;NE-QL-CAPRO-DGW-RG;DDA AEA QA;North Europe;Standard_B2ms;
+Agendamento em progresso;QL;RDC;Jorge Rainha;qlsmartdgwvms03;NE-QL-SMART-DGW-RG;DDD-CA Smart-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;RDC;Jorge Rainha;qlsmartmngvms01;ne-ql-smart-mng-rg;DDD-CA Smart-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;RiskShield;João Carlos Jorge Travessa;dvrisksappsvc01;NE-DV-RISKS-APP-RG;CAS-RISKS-DV;North Europe;Standard_D4ds_v5;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;RiskShield;João Carlos Jorge Travessa;dvrisksdatsql01;NE-DV-RISKS-DAT-RG;CAS-RISKS-DV;North Europe;Standard_D4ds_v5;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;RiskShield;João Carlos Jorge Travessa;dvrisksengsvc01;NE-DV-RISKS-ENG-RG;CAS-RISKS-DV;North Europe;Standard_D4lds_v5;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;RiskShield;João Carlos Jorge Travessa;qlrisksappsvc01;ne-ql-risks-app-rg;CAS-RISKS-QL;North Europe;Standard_D4ds_v5;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;QL;;;qlexperpltrun01;NE-QL-EXPER-INF-RG;DDA AEA QA;North Europe;Standard_B4ms;Sempre desligado
+Inactivo;QL;;;qlfocusappsvc01;NE-QL-FOCUS-APP-RG;DDD-CALYP-QL;North Europe;Standard_D32s_v5;
+Inactivo;QL;;;qlfocuscalsvc01;NE-QL-FOCUS-CAL-RG;DDD-CALYP-QL;North Europe;Standard_F64s_v2;
+Inactivo;QL;;;qlfocusdatodb01;NE-QL-FOCUS-DAT-RG;DDD-CALYP-QL;North Europe;Standard_D32ds_v5;
+Agendamento em progresso;QL;RiskShield;João Carlos Jorge Travessa;qlrisksdatsql01;NE-QL-RISKS-DAT-RG;CAS-RISKS-QL;North Europe;Standard_D4ds_v5;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;RiskShield;João Carlos Jorge Travessa;qlrisksengsvc01;NE-QL-RISKS-ENG-RG;CAS-RISKS-QL;North Europe;Standard_D4lds_v5;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;QL;;;qlmenigpltaut01;NE-QL-MENIG-PLT-RG;DDA AEA QA;North Europe;Standard_B4ms;Desligar dias úteis das 20h às 8h e aos FDS
+Inactivo;QL;;;qlmenigpltque01;NE-QL-MENIG-PLT-RG;DDA AEA QA;North Europe;Standard_B4ms;Desligar dias úteis das 20h às 8h e aos FDS
+Agendamento em progresso;DV;Sifox;Paulino Carvalho;dvsifoxappsvc01;NE-DV-SIFOX-APP-RG;DDD-SIFOX-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;Sifox;Paulino Carvalho;dvsifoxdatodb01;NE-DV-SIFOX-DAT-RG;DDD-SIFOX-DV;North Europe;Standard_E4-2s_v3;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;PP;;;qlpconsappiis01;ne-ql-pcons-app-rg;DSP-SMGOV-PP;North Europe;Standard_B4ms;
+Inactivo;PP;;;qlpconsdatsql01;ne-ql-pcons-dat-rg;DSP-SMGOV-PP;North Europe;Standard_B8ms;
+Inactivo;PP;;;qlpconswfoiis01;ne-ql-pcons-wfo-rg;DSP-SMGOV-PP;North Europe;Standard_B4ms;
+Agendamento em progresso;QL;Sifox;Paulino Carvalho;qlsifoxdatodb01;NE-QL-SIFOX-DAT-RG;DDD-SIFOX-QL;North Europe;Standard_E4s_v3;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Sifox;Paulino Carvalho;qlsifoxintwbo01;ne-ql-sifox-int-rg;DDD-SIFOX-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Sifox;Paulino Carvalho;qlsifoxintwfo01;NE-QL-SIFOX-INT-RG;DDD-SIFOX-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Sifox;Paulino Carvalho;qlsifoxwebsvc01;NE-QL-SIFOX-WEB-RG;DDD-SIFOX-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;Siopeia;Paulino Carvalho;dvsiopeappsvc01;NE-DV-SIOPE-APP-RG;DDD-SIOPE-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;Siopeia;Paulino Carvalho;dvsiopedatodb01;ne-dv-siope-dat-rg;DDD-SIOPE-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;DV;Siopeia;Paulino Carvalho;dvsiopeprcsvc01;NE-DV-SIOPE-PRC-RG;DDD-SIOPE-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Siopeia;Paulino Carvalho;qlsiopeappsvc01;NE-QL-SIOPE-APP-RG;DDD-SIOPE-QL;North Europe;Standard_B4ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Siopeia;Paulino Carvalho;qlsiopedatodb01;NE-QL-SIOPE-DAT-RG;DDD-SIOPE-QL;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;Siopeia;Paulino Carvalho;qlsiopeprcsvc01;ne-ql-siope-prc-rg;DDD-SIOPE-QL;North Europe;Standard_B12ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DV;Smart PBC;Paulino Carvalho;dvcapbcdatdmg01;NE-DV-CAPBC-INF-RG;DDD-Smart PBC-DV;North Europe;Standard_A2_v2;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DV;Smart PBC;Paulino Carvalho;dvcapbcdatdmg02;NE-DV-CAPBC-INF-RG;DDD-Smart PBC-DV;North Europe;Standard_A2_v2;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DV;Smart PBC;Paulino Carvalho;dvcapbcdatsql01;NE-DV-CAPBC-INF-RG;DDD-Smart PBC-DV;North Europe;Standard_B8ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DV;Smart PBC;Paulino Carvalho;dvcapbcdgwvms01;NE-DV-CAPBC-DGW-RG;DDD-AEA-EIG-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DV;Smart PBC;Paulino Carvalho;dvcapbcdgwvms02;NE-DV-CAPBC-DGW-RG;DDD-AEA-EIG-DV;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DV;Smart PBC;Paulino Carvalho;dvcapbcinfadc01;NE-DV-CAPBC-INF-RG;DDD-Smart PBC-DV;North Europe;Standard_B2s;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;DV;Smart PBC;Paulino Carvalho;dveigdatsql01;NE-DV-EIG-INF-RG;DDD-AEA-EIG-DV;North Europe;Standard_F4s_v2;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;QL;Smart PBC;Paulino Carvalho;qlcapbcdatdmg01;NE-QL-CAPBC-INF-RG;DDD-AEA-EIG-QA;North Europe;Standard_A2_v2;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;QL;;;qlsqubeinfsec01;ne-ql-sqube-inf-rg;DDA AEA QA;North Europe;Standard_B2ms;
+Inactivo;QL;;;qlvpninfdns01;ne-ql-gtway-net-rg;AEA-Gateway-QL;North Europe;Standard_B2ms;
+Inactivo;QL;;;qlwvdinfhp2-0;NE-QL-WVD-HP2-RG;DDD-WVD-QL;North Europe;Standard_E4s_v3;
+Inactivo;QL;;;qlwvdinfhp3-0;NE-QL-WVD-HP3-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Activo;QL;Smart PBC;Paulino Carvalho;qlcapbcdatdmg02;NE-QL-CAPBC-INF-RG;DDD-AEA-EIG-QA;North Europe;Standard_A4_v2;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;QL;;;qlwvdinfhp5-0;NE-QL-WVD-HP5-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;qlwvdinfhp6-0;NE-QL-WVD-HP6-RG;DDD-WVD-QL;North Europe;Standard_B8ms;
+Inactivo;QL;;;qlwvdinfhp7-0;NE-PR-WVD-HP21-RG;DSP-WVD-PR;North Europe;Standard_B2s;
+Inactivo;QL;;;qlwvdinfhp7-0;NE-QL-WVD-HP7-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;qlwvdinfhp9-0;NE-QL-WVD-HP9-RG;DDD-WVD-QL;North Europe;Standard_B8ms;
+Inactivo;DV;;;TEMPJAVATEST;ne-dv-azrpi-app-rg;DDD-DV;North Europe;Standard_D2s_v5;
+Inactivo;QL;;;w10devprim01;NE-QL-WVD-HP6-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;w10devprim02;NE-QL-WVD-HP6-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;w10devprim03;NE-QL-WVD-HP6-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;w10devprim04;NE-QL-WVD-HP6-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;PR;;;w10prdduitwvd01;ne-pr-wvd-hp13-rg;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd02;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd03;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd04;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd05;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd06;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd07;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd08;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd09;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd10;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd11;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd12;ne-pr-wvd-hp13-rg;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd13;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd14;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd15;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Inactivo;PR;;;w10prdduitwvd16;NE-PR-WVD-HP13-RG;DSP-WVD-PR;North Europe;Standard_D2ds_v5;
+Activo;QL;Smart PBC;Paulino Carvalho;qlcapbcdgwvms01;NE-QL-CAPBC-DGW-RG;DDD-AEA-EIG-QA;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;QL;Smart PBC;Paulino Carvalho;qlcapbcdgwvms02;NE-QL-CAPBC-DGW-RG;DDD-AEA-EIG-QA;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Activo;QL;Smart PBC;Paulino Carvalho;qleigdatsql01;NE-QL-EIG-INF-RG;DDD-AEA-EIG-QA;North Europe;Standard_DS11_v2;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Agendamento em progresso;QL;SmartDoc;Inês Rebelo Pinto;qlsmdocappana01;NE-QL-SMDOC-APP-RG;DDA AEA QA;North Europe;Standard_B2ms;Desligado dias da semana das 20h às 8h e Fins-de-semana
+Inactivo;QL;;;w10quaprim01;NE-QL-WVD-HP6-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;w10quaprim02;NE-QL-WVD-HP6-RG;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;w10quaprim03;ne-ql-wvd-hp6-rg;DDD-WVD-QL;North Europe;Standard_B4ms;
+Inactivo;QL;;;w10quaprim04;NE-QL-WVD-HP6-RG;DDD-WVD-QL;North Europe;Standard_B4ms;Desligar dias úteis das 20h às 8h e aos FDS
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;; ;;;;;
